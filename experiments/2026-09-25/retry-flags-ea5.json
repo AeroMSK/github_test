@@ -1,0 +1,15 @@
+{
+  "name": "practice-config",
+  "version": "1.5.6",
+  "updated": "2026-09-25",
+  "settings": {
+    "retryLimit": 7,
+    "timeoutMs": 4990,
+    "featureFlags": {
+      "newPipeline": false,
+      "cacheLayer": true,
+      "verboseLogs": false
+    }
+  },
+  "watch": ["src/**/*", "notes/*.md"]
+}
